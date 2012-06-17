@@ -1,0 +1,6 @@
+/*
+    SublimeMagick default settings
+*/
+{
+    "sublimemagick_format": "%w x %h"
+}
