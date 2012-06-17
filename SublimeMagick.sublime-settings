@@ -2,5 +2,14 @@
     SublimeMagick default settings
 */
 {
-    "sublimemagick_format": "%w x %h"
+    /*
+        This format is passed to identify using '-format' key.
+        See http://www.imagemagick.org/script/escape.php for a list of possible format characters.
+    */
+    "sublimemagick_format": "%w x %h",
+
+    /*
+        Path to the identify tool.
+    */
+    "sublimemagick_identify_path": "env identify"
 }
